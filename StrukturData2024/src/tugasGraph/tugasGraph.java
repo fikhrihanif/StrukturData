@@ -66,6 +66,6 @@ public class tugasGraph {
         graph.put("H", Arrays.asList("E"));
         
         System.out.println("BFS: " + search.bfs(graph, "A"));
-        System.out.println("DFS (Iterative): " + search.dfs(graph, "A"));
+        System.out.println("DFS: " + search.dfs(graph, "A"));
     }
 }
